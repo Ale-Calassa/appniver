@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/appniver/static/css/main.fb7fc82a.css",
+    "main.js": "/appniver/static/js/main.45c5853b.js",
+    "static/media/birthday.mp3": "/appniver/static/media/birthday.80ee45d35911e12eafae.mp3",
+    "static/media/cumple.png": "/appniver/static/media/cumple.af32d66ed655fa98f5a6.png",
+    "static/media/caio.png": "/appniver/static/media/caio.1f48d113fdfd48659475.png",
+    "index.html": "/appniver/index.html",
+    "main.fb7fc82a.css.map": "/appniver/static/css/main.fb7fc82a.css.map",
+    "main.45c5853b.js.map": "/appniver/static/js/main.45c5853b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb7fc82a.css",
+    "static/js/main.45c5853b.js"
+  ]
+}
