@@ -1,0 +1,87 @@
+/* Plano de fundo com imagem */
+.login-background {
+  background-image: url('../img/cumple.png'); /* ajuste o caminho conforme sua estrutura */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  padding: 1rem; /* evita que a caixa encoste nas bordas em telas pequenas */
+}
+
+/* Caixa de login centralizada */
+.login-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(10, 215, 230, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Título */
+.login-box h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 35px;
+  margin-bottom: 1.5rem;
+  color: #002533;
+}
+
+/* Campos de entrada */
+.login-box input {
+  width: 80%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Botão */
+.login-box button {
+  width: 40%;
+  padding: 0.75rem;
+  background-color: #0083d4;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-box button:hover {
+  background-color: #0097a7;
+}
+
+/* Responsividade para celular */
+@media (max-width: 480px) {
+  .login-background {
+    padding: 0.5rem; /* mais espaço nas bordas */
+    background-position: top; /* melhora a visualização da imagem em telas estreitas */
+  }
+
+  .login-box {
+    padding: 1.2rem;
+    max-width: 100%;
+  }
+
+  .login-box h2 {
+    font-size: 24px; /* título menor para caber melhor */
+    margin-bottom: 1rem;
+  }
+
+  .login-box input {
+    width: 100%; /* ocupa toda a largura disponível */
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
+
+  .login-box button {
+    width: 100%; /* botão ocupa toda a largura */
+    font-size: 0.95rem;
+    padding: 0.7rem;
+  }
+}
