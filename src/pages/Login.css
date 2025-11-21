@@ -42,13 +42,14 @@
 
 /* Botão */
 .login-box button {
-  width: 40%;
+  width: 50%;
   padding: 0.75rem;
   background-color: #0083d4;
   color: rgb(255, 255, 255);
   border: none;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 1.3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
