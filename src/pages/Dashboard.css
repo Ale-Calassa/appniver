@@ -38,6 +38,22 @@
   color: #333;
 }
 
+.play-button {
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #00eeff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.play-button:hover {
+  background-color: #00ade6;
+}
+
 /* Responsividade */
 @media (max-width: 480px) {
   .dashboard-content {
@@ -57,18 +73,4 @@
   }
 }
 
-.play-button {
-  margin-top: 1.5rem;
-  padding: 0.6rem 1.2rem;
-  font-size: 1rem;
-  background-color: #00eeff;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
 
-.play-button:hover {
-  background-color: #00ade6;
-}
