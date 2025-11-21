@@ -43,8 +43,8 @@
   padding: 0.6rem 1rem;
   font-size: 1.5rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: #00eeff;
-  color: white;
+  background: linear-gradient(to bottom right, #070e10, #01acf0);
+  color: rgb(220, 220, 220);
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -52,7 +52,7 @@
 }
 
 .play-button:hover {
-  background-color: #00ade6;
+  background: linear-gradient(to bottom right, #0c0c0c, #023dff);
 }
 
 /* Responsividade */
