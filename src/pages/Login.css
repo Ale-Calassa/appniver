@@ -24,10 +24,10 @@
 /* Título */
 .login-box h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 45px;
+  font-size: 50px;
   margin-bottom: 1.5rem;
   margin-top: 0.5rem;
-  color: #000000;
+  color: #1f1f1f;
 }
 
 /* Campos de entrada */
@@ -42,12 +42,12 @@
 
 /* Botão */
 .login-box button {
-  width: 50%;
-  padding: 0.75rem;
-  background-color: #0083d4;
+  width: 45%;
+  padding: 0.50rem;
+  background-color: #00bfc5;
   color: rgb(255, 255, 255);
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   font-size: 1.3rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
   cursor: pointer;
@@ -55,7 +55,7 @@
 }
 
 .login-box button:hover {
-  background-color: #0097a7;
+  background-color: #6440e6;
 }
 
 /* Responsividade para celular */
