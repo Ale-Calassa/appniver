@@ -19,7 +19,7 @@
 
 .birthday-img {
   width: 100%;
-  max-width: 300px;
+  max-width: 200px;
   height: auto;
   border-radius: 10px;
   margin-bottom: 1.5rem;
@@ -27,12 +27,14 @@
 
 .dashboard-content h2 {
   font-size: 2rem;
+  font-style: oblique;
   color: #000000;
   margin-bottom: 1rem;
 }
 
 .dashboard-content p {
   font-size: 1.2rem;
+  font-weight: bold;
   color: #333;
 }
 

@@ -23,7 +23,7 @@ const Dashboard = () => {
 
       <div className="dashboard-content">
         <img src={cumple} alt="Feliz Aniversário" className="birthday-img" />
-        <h2> Parabéns, CAIO 🎉</h2>
+        <h2> PARABÉNS, ALÊ 🎉</h2>
         <p>  Que Deus realize seus sonhos, projetos e te encha de seu Amor.
              Que você cresça em graça e sabedoria.
              Que você espalhe o amor e a graça de Deus por onde vc for.
