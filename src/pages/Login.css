@@ -13,7 +13,7 @@
 /* Caixa de login centralizada */
 .login-box {
   background-color: rgba(255, 255, 255, 0.9);
-  padding: 2rem;
+  padding: 2.5rem;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(10, 215, 230, 0.2);
   width: 100%;
@@ -24,9 +24,10 @@
 /* Título */
 .login-box h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 35px;
+  font-size: 45px;
   margin-bottom: 1.5rem;
-  color: #002533;
+  margin-top: 0.5rem;
+  color: #000000;
 }
 
 /* Campos de entrada */
@@ -35,7 +36,7 @@
   padding: 0.75rem;
   margin-bottom: 1rem;
   border: 1px solid #cccccc;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 1rem;
 }
 
