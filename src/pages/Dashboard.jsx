@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import './Dashboard.css';
-import cumple from '../img/caio.png';
+import cumple from '../img/AleCambly.png';
 import birthday from '../music/birthday.mp3';
 
 const Dashboard = () => {
