@@ -29,7 +29,7 @@ const Dashboard = () => {
              Que você espalhe o amor e a graça de Deus por onde vc for.
              Que vc seja muito Feliz. Deus te abençoe!
             </p>
-        <button className="play-button" onClick={handlePlay}>🎵 Tocar música</button>
+        <button className="play-button" onClick={handlePlay}>🎵 Tocar Música 🎵</button>
       </div>
     </div>
   );
